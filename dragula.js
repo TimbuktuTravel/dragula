@@ -49,7 +49,7 @@ function dragula (initialContainers, options) {
     destroy: destroy,
     canMove: canMove,
     dragging: false,
-    grabManually: grab
+    grab: grab
   });
 
   if (o.removeOnSpill === true) {
